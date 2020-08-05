@@ -22,7 +22,3 @@ Tapping the plus icon for particular filr is called staging the file and after e
 ##### 7-Verify commitment
 To check if its committed, type `git log` and press Enter, or click Timeline dropdown to see steps just taken.
 
-##### 8-Pushing this to a remote repo
-Create a repo in on your github acccount. Creating will also show you codes to do further steps, where we have almost completed half of the steps.
-Push your repo in by `git remote add origin https://github.com/himanshusoni2708/vshub.git` and then `git push -u origin master`. This will ask for credentials and you arer done!
-Check for your files in the repository on your browser.
