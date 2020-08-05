@@ -17,6 +17,10 @@ See if you are signed in by `git config --global --list`. This will show up your
 
 ##### 6-Committing your first tries
 For an already created file, tap the `+` icon for the file shown in the Source Control Tab (Ctrl+Shft+G) also called the Git Tab for files you want to commit changes.
+Tapping the plus icon for particular filr is called staging the file and after every staging you need to enter a message(optional) and then press the tick at the top. This is the most needed quality of locally handled git.
 
 ##### 7-Verify commitment
 To check if its committed, type `git log` and press Enter, or click Timeline dropdown to see steps just taken.
+
+##### 8-Pushing this to a remote repo
+Create a repo in on your github acccount. Creating will also show you codes to do further steps, where we have done many of them.
