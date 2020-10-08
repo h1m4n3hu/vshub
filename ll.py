@@ -38,6 +38,24 @@ class LList:
             first=first.next
         prev.next=None
 
+    def poptop(self):
+        first=self.head
+        second=self.head.next
+        self.head=second
+        first.next=None
+
+    def length(self):
+        first=self.head
+        i=0
+        while first is not None:
+            first=first.next
+            i+=1
+        print(i)
+
+    def remove(self,pos):
+        i=0
+        first=self.head
+
 
 
 ll=LList()
@@ -49,6 +67,6 @@ n3=Node(23)
 ll.add(n3)
 n3=Node(25)
 ll.add(n3)
-ll.poptop()
+ll.length()
 
 ll.show()
