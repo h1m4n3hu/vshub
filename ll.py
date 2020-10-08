@@ -38,7 +38,7 @@ class LList:
             first=first.next
         prev.next=None
 
-    def pop 
+
 
 ll=LList()
 n1=Node(19)
